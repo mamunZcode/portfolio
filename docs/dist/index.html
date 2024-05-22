@@ -87,7 +87,12 @@
                         Throughout my studies, I have been involved in various projects that have allowed me to apply theoretical knowledge to practical scenarios, enhancing my problem-solving skills and technical expertise. I am passionate about technology and constantly strive to stay updated with the latest advancements in the field.
                         <br>In addition to my academic pursuits, I am keenly interested in participating in tech communities and contributing to open-source projects. I believe in the power of collaboration and continuous learning to drive innovation and create impactful solutions.
                     </p>
-                    <button class="btn-rounded btn btn-outline-primary mt-4">Download CV</button>
+                    <button class="btn-rounded btn btn-outline-primary mt-4" id="downloadCvBtn">Download CV</button>
+                    <script>
+                        document.getElementById('downloadCvBtn').addEventListener('click', function() {
+                          window.location.href = 'file:///Users/admin/Desktop/MamunHD/EmpWork/_Md.Muntasir%20MamunCV.pdf';
+                        });
+                      </script>
                 </div>              
             </div><!-- end of about wrapper -->
         </div><!-- end of container -->
